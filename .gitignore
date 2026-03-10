@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Datasets (To avoid pushing Gigabytes of data to GitHub)
+train/
+val/
+test/
+dataset_v2/
+consolidated_data/
+
+# Training Outputs
+runs/
+rose_classification/
+rose_classification_v2/
+
+# OS
+.DS_Store
+
+# Local Model Backups (except the one needed for deployment)
+# best.pt  # Keep this commented if you want to push the specific best version
+best_v1.pt
+!best_v2.pt
