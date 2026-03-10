@@ -1,8 +1,8 @@
+opencv-python-headless
 streamlit
 ultralytics
 Pillow
 numpy<2.0
-opencv-python-headless
 matplotlib
 seaborn
 scikit-learn
