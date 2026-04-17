@@ -156,4 +156,4 @@ if uploaded_file is not None:
 
 # --- FOOTER ---
 st.divider()
-st.markdown("Created for GenAI Agricultural Hackathon • Powered by YOLOv8 Transfer Learning")
+st.markdown("Powered by YOLOv8 Transfer Learning")
