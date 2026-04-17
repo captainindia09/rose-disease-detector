@@ -1,3 +1,7 @@
+import torch
+# Fix for Streamlit file watcher conflict with PyTorch
+torch.classes.__path__ = [] 
+
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
