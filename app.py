@@ -19,16 +19,7 @@ st.set_page_config(
 # --- CUSTOM STYLING ---
 st.markdown("""
 <style>
-    /* Main Background - Clean and High Contrast */
-    .stApp {
-        background-color: #ffffff;
-    }
-    
-    /* Force Dark Text for ALL elements */
-    h1, h2, h3, h4, h5, h6, p, span, li, label, .stMarkdown {
-        color: #0f172a !important; /* Extremely Dark Blue/Black */
-    }
-    
+    /* Remove global hacks and rely on Streamlit config.toml for base theme */
     .subtitle {
         color: #334155 !important;
         font-size: 1.1rem;
